@@ -10821,6 +10821,11 @@ textarea.form-control-lg {
 .display-3 {
   font-family: "Poppins", sans-serif;
 }
+.display-3--title {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
 
 .border-right {
   border-right: 0.1rem solid #dee2e6;
