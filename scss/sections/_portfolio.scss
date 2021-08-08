@@ -10,16 +10,16 @@
 }
 
 .portfolio-box {
-    margin-bottom: 1.2rem;
     position: relative;
     width: 100%;
-    height: 18.5rem;
+    max-height: 18.5rem;
     overflow: hidden;
+    margin-bottom: 1.2rem;
     border-top: 0.5rem solid $purple-light;
 
     img {
         width: 100%;
-        height: 100%;
+        // height: 100%;
     }
 
     .portfolio-info {
@@ -46,6 +46,12 @@
     }
 
     &:hover {
+        img {
+            transform: scale(1.5);
+
+            @include transitionProperty;
+        }
+
         .portfolio-info {
             opacity: 1;
             visibility: visible;
