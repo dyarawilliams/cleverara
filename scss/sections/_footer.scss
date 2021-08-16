@@ -12,7 +12,7 @@
 
     &__icon {
         width: 2rem;
-        stroke: $primary;
+        stroke: $secondary;
         padding-top: 0.5rem;
 
         @include media-breakpoint-up(sm) {
@@ -79,7 +79,7 @@
             text-decoration: none;
 
             &:hover {
-                color: $primary;
+                color: $secondary;
             }
         }
     }
@@ -98,7 +98,7 @@
             text-decoration: none;
 
             &:hover {
-                color: $primary;
+                color: $secondary;
                 text-decoration: underline;
             }
         }
